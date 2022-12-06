@@ -5,13 +5,17 @@
   font-family: "Red Rose", cursive;
 }
 
-body{
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('./assets/pexels-maxyne-barcel-10402282\ 1.png');
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./assets/pexels-maxyne-barcel-10402282\ 1.png');
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; */
 }
 
 .container {
   position: relative;
-  width: 90%;
+  max-width: 90%;
   margin: 30px auto;
 }
 
@@ -30,16 +34,16 @@ body{
 }
 
 .navbar div .list {
-  width: 400px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 50px;
   list-style-type: none;
 }
 
 .navbar div .list .list-item {
-   color: #f2d555;
-   cursor: pointer;
+  color: #f2d555;
+  cursor: pointer;
 }
 
 .navbar div .button-small {
@@ -60,8 +64,8 @@ body{
   position: relative;
   height: 80vh;
   display: flex;
-  align-items:center;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -69,9 +73,8 @@ body{
   color: #f2d555;
   font-size: 70px;
   width: 700px;
-  text-align:center;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .hero .button-large {
@@ -90,4 +93,39 @@ body{
   bottom: 0;
   right: 0;
   width: 125px;
+}
+
+/* mobile responsive */
+@media screen and (max-width: 768px) {
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  .hero .hero-heading {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  .hero .hero-heading {
+    width: 400px;
+    font-size: 30px;
+  }
+
+  .navbar div .list {
+    display: none;
+  }
+
+  .hero .bottom div img {
+    bottom: -30px;
+  }
 }
