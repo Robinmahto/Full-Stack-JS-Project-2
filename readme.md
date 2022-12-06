@@ -4,7 +4,7 @@
 
 - ### skills used in project
   - CSS Background images, media query, flexbox etc.
-  - Learn to making background responsive.
+  - Learn to making background images responsive.
   - Total time taken 3hr to complete.
 ### Screenshot
 ![assignment 02](2.png)
