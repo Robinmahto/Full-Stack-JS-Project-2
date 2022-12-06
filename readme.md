@@ -1,6 +1,6 @@
 # Assignment - 02
 
-## Project 02 [Live Link](https://full-stack-js-project-02.netlify.app/)
+## Project 02 [Live Link](https://full-stack-js-projects-02.netlify.app/)
 
 - ### skills used in project
   - CSS Background images, media query, flexbox etc.
