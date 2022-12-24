@@ -1,6 +1,6 @@
-# Assignment - 02
+# Food-Resturant-Home-Page
 
-## Project 02 [Live Link](https://full-stack-js-projects-02.netlify.app/)
+## Project 02 [Live Link](https://food-resturant-home-pages-02.netlify.app/)
 
 - ### skills used in project
   - CSS Background images, media query, flexbox etc.
